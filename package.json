@@ -1,0 +1,22 @@
+{
+  "name": "hypixel-afk-bot",
+  "version": "1.0.0",
+  "description": "AFK bot for Hypixel Skyblock.",
+  "main": "afkbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aldoraz/hypixel-afk-bot.git"
+  },
+  "author": "Aldoraz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aldoraz/hypixel-afk-bot/issues"
+  },
+  "homepage": "https://github.com/Aldoraz/hypixel-afk-bot#readme",
+  "dependencies": {
+    "mineflayer": "^4.21.0"
+  }
+}

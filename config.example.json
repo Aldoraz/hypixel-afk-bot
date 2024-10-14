@@ -1,0 +1,13 @@
+{
+    "server": {
+        "ip": "mc.hypixel.net",
+        "port": "25565"
+    },
+    "account": {
+        "username": "email of your minecraft account"
+    },
+    "afkbot": {
+        "logAllMessages": false,
+        "logTime": true
+    }
+}
