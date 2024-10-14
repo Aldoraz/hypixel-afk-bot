@@ -15,26 +15,26 @@ Give the Bot a pet to speed up minion production.
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Aldoraz/hypixel-afk-bot.git
    cd hypixel-afk-bot
-   \`\`\`
+   ```
 
 2. Install the dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. Set up your `config.json` file:
 
    - Copy the example configuration file:
-     \`\`\`bash
+     ```bash
      cp config.example.json config.json
-     \`\`\`
+     ```
 
    - Edit `config.json` with your Minecraft credentials and server details. Here’s an example of what it should look like:
 
-   \`\`\`json
+   ```json
    {
        "server": {
            "ip": "mc.hypixel.net",
@@ -48,22 +48,22 @@ Give the Bot a pet to speed up minion production.
            "logAllMessages": false
        }
    }
-   \`\`\`
+   ```
 
 ## First-Time Microsoft Authentication
 
 When running the bot for the first time with **Microsoft authentication**, you will be prompted to sign in via your browser. Follow these steps:
 
 1. Run the bot:
-   \`\`\`bash
+   ```bash
    node .
-   \`\`\`
+   ```
 
 2. You will see a message like:
-   \`\`\`
+   ```
    [msa] First time signing in. Please authenticate now:
    To sign in, use a web browser to open the page https://www.microsoft.com/link and use the code XXXXXXXX.
-   \`\`\`
+   ```
 
 3. Open the provided URL in your browser (e.g., https://www.microsoft.com/link) and enter the code shown in the terminal.
 
@@ -72,7 +72,7 @@ When running the bot for the first time with **Microsoft authentication**, you w
 ## Usage
 
 After setup and authentication, the bot will:
-1. Log into Hypixel using \`/lobby\`, \`/play sb\`, and \`/is\`.
+1. Log into Hypixel using `/lobby`, `/play sb`, and `/is`.
 2. Reconnect to your island if the bot gets disconnected or moved to Limbo.
 3. Stay AFK on your island.
 
